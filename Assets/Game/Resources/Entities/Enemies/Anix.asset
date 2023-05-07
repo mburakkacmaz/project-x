@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d668f634fd802546919720ac640d0a4, type: 3}
+  m_Name: Anix
+  m_EditorClassIdentifier: 
+  name: Anix
+  description: "Mavi Vir\xFCs"
+  frontSprite: {fileID: 21300000, guid: b607e44632e46064e8683665e2211eaa, type: 3}
+  type1: 5
+  type2: 11
+  maxHp: 45
+  attack: 49
+  deffance: 49
+  spAttack: 65
+  spDeffance: 65
+  speed: 45
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: b863075a1c275de49bf85634e41e9d0f, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 2090e90c186375f46a7cfb207b2a6440, type: 2}
+    level: 5
+  - moveBase: {fileID: 11400000, guid: 29e0b00a787828f43baf266690a2acd0, type: 2}
+    level: 7
